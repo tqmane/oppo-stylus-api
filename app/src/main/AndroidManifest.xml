@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.stylus.noteapp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.StylusNote"
-        android:extractNativeLibs="true">
+        android:theme="@style/Theme.StylusNote">
         
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.stylus.noteapp.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
