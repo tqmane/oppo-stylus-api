@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Undo"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:title="Color">
+        <menu>
+            <item
+                android:id="@+id/action_black"
+                android:title="Black" />
+            <item
+                android:id="@+id/action_red"
+                android:title="Red" />
+            <item
+                android:id="@+id/action_blue"
+                android:title="Blue" />
+            <item
+                android:id="@+id/action_green"
+                android:title="Green" />
+        </menu>
+    </item>
+    
+    <item
+        android:title="Stroke Width">
+        <menu>
+            <item
+                android:id="@+id/action_thin"
+                android:title="Thin" />
+            <item
+                android:id="@+id/action_medium"
+                android:title="Medium" />
+            <item
+                android:id="@+id/action_thick"
+                android:title="Thick" />
+        </menu>
+    </item>
+    
+</menu>

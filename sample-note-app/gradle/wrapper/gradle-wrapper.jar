@@ -1,0 +1,27 @@
+# Gradle Wrapper JAR Placeholder
+
+このファイルはGradle Wrapperのバイナリファイルです。
+
+## 取得方法
+
+実際のプロジェクトでは、以下の方法でgradle-wrapper.jarを生成してください：
+
+### 方法1: Android Studioで開く
+1. Android Studioでプロジェクトを開く
+2. 自動的にgradle-wrapper.jarが生成される
+
+### 方法2: Gradleコマンド
+```bash
+gradle wrapper --gradle-version 8.2
+```
+
+### 方法3: 既存プロジェクトからコピー
+別のAndroidプロジェクトからgradle-wrapper.jarをコピー
+
+## ファイルサイズ
+約60KB
+
+## 注意
+このプレースホルダーファイルは実際のJARファイルではありません。
+上記の方法で正式なgradle-wrapper.jarを生成してください。
+
