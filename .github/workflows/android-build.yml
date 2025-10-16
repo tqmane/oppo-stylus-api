@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
+    - name: Checkout
       uses: actions/checkout@v4
-      with:
-        lfs: false
         
     - name: Ensure LF line endings for gradlew
       run: |
@@ -25,8 +23,9 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
         distribution: 'temurin'
+        java-version: '17'
+        cache: 'gradle'
     
     - name: Set up Android SDK (API 34)
       uses: android-actions/setup-android@v3
@@ -36,15 +35,15 @@ jobs:
           build-tools;34.0.0
           platform-tools
         
-    - name: Build with Gradle
+    - name: Gradle Build (Debug)
       uses: gradle/gradle-build-action@v2
       with:
-        arguments: assembleDebug --stacktrace
+        arguments: :app:assembleDebug --stacktrace
       
-    - name: Build Release APK
+    - name: Gradle Build (Release)
       uses: gradle/gradle-build-action@v2
       with:
-        arguments: assembleRelease
+        arguments: :app:assembleRelease --stacktrace
       
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
@@ -55,7 +54,7 @@ jobs:
     - name: Upload Release APK
       uses: actions/upload-artifact@v4
       with:
-        name: app-release
+        name: app-release-unsigned
         path: app/build/outputs/apk/release/app-release-unsigned.apk
         
     - name: Create Release
