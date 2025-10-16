@@ -1,0 +1,503 @@
+--------- beginning of system
+10-17 00:13:43.472 I/WindowManager( 3235): Window{b9ba99f u0 StatusBar InputLayer of Task=6004} state from HAS_DRAWN to NO_SURFACE; reason: destroySurface
+10-17 00:13:43.472 D/OplusSplitScreenManagerService( 3235): isNeedForceShowSystemBarsWhenSplit, landspace no need force show system bar
+10-17 00:13:43.472 D/OplusSplitScreenManagerService( 3235): isNeedForceShowSystemBarsWhenSplit, landspace no need force show system bar
+10-17 00:13:43.473 D/QuickBackInputPolicy( 3235): hasMultiChildrenInTask: false
+10-17 00:13:43.473 D/WindowManager( 3235): NFW_findFocusedWindowIfNeeded:Window{27edafa u0 com.android.launcher/com.android.launcher.Launcher} mCurrentFocus:Window{27edafa u0 com.android.launcher/com.android.launcher.Launcher}
+--------- beginning of main
+10-17 00:13:43.473 D/OplusScrollToTopManager( 3850): Caption of Task=6004,window dying
+10-17 00:13:43.473 D/OplusScrollToTopManager( 3850): Caption of Task=6004,unregisterGuidePopupDismissReceiverInSystemUI
+10-17 00:13:43.473 D/OplusScrollToTopManager( 3850): Caption of Task=6004,Receiver not registered: android.view.OplusScrollToTopManager$1@2f2ea8a
+10-17 00:13:43.473 W/WindowManager( 3235): Cannot find window which accessibility connection is added to
+10-17 00:13:43.473 D/HWUI    ( 3850): RenderProxy::destroy: this=0xb400006ead1a5500, mContext=0xb400006e36e763c0
+10-17 00:13:43.473 D/HWUI    ( 3850): SkiaVulkanPipeline::setSurface: this=0xb400006ebffedbc0, surface=NULL
+10-17 00:13:43.474 D/BufferQueueProducer( 3850): [VRI[Caption of Task=6004]#590(BLAST Consumer)590](id:f0a0000025c,api:1,p:3850,c:3850) disconnect: api 1
+10-17 00:13:43.474 D/BLASTBufferQueue( 3850): [VRI[Caption of Task=6004]#590](f:0,a:1) destructor()
+10-17 00:13:43.474 D/BufferQueueConsumer( 3850): [VRI[Caption of Task=6004]#590(BLAST Consumer)590](id:f0a0000025c,api:0,p:-1,c:3850) disconnect
+10-17 00:13:43.474 I/VRR [FRTC]( 2110): setFrameRateTarget with [0, com.android.launcher, 0, version-3-noContext-animation, 3, 0, 0, 14]
+10-17 00:13:43.474 D/VRR [RefreshRateDirector]( 2110): requestRefreshRate delete [ version-3-noContext-animation, 0 ]
+10-17 00:13:43.474 D/VRR [RefreshRateDirector]( 2110): selectBestFrameRate DirectorMapOti [oti-hw, {fps=120, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}]
+10-17 00:13:43.474 D/VRR [RefreshRateDirector]( 2110): updateBestFrameRate [oti-hw, {fps=120, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}]
+10-17 00:13:43.474 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:43.474 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK OFF
+10-17 00:13:43.474 D/SurfaceFlinger( 2110): VRR [SurfaceFlinger] setDesiredActiveMode: displayId: 4630946983774026899, renderRate: 120, vsyncRate: 120, event: 0
+10-17 00:13:43.474 D/DisplayModeController( 2110): setDesiredMode 4630946983774026899 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+10-17 00:13:43.475 W/WindowManager( 3235): Failed looking up window session=Session{d81e4a6 3850:u0a10212} callers=com.android.server.wm.WindowManagerService.removeClientToken:2213 com.android.server.wm.Session.remove:297 android.view.IWindowSession$Stub.onTransact:685 
+10-17 00:13:43.475 I/InputDispatcher( 3235): channel 'Embedded{Caption of Task=6004} (server)'~ abortBrokenDispatchCycleLocked - notify=false
+10-17 00:13:43.475 W/InputManager-JNI( 3235): Input channel object 'Embedded{Caption of Task=6004} (client)' was disposed without first being removed with the input manager!
+10-17 00:13:43.475 V/WindowManagerShell( 3850): Transition animation finished (aborted=false), notifying core (#482) android.os.BinderProxy@50da264@0
+10-17 00:13:43.475 W/OplusShellTransition( 3850): RecentsTransitionHandler.getRecentController: no controller found , token=android.os.BinderProxy@50da264
+10-17 00:13:43.475 D/SplitScreen-->AppLockManager( 3850): setStartFromSafeControl mStartFromSafeControl=false
+10-17 00:13:43.476 D/ShellTaskOrganizerExt( 3850): adjust change for exiting mini task: -1
+10-17 00:13:43.476 D/Transition( 3235): finishTransition ar ActivityRecord{2b01448 u0 com.example.stylus.noteapp/.MainActivity t6004 f} isExiting}, isVisibleRequested=false, state=DESTROYED, visibleAtTransitionEndTokens={ActivityRecord{eb31a27 u0 com.android.launcher/.Launcher t5}}, this=TransitionRecord{3012c49 id=482 track=0 type=CLOSE flags=0x10 state=2}
+10-17 00:13:43.476 D/ActivityTaskManager( 3235): commitVisibility: ActivityRecord{2b01448 u0 com.example.stylus.noteapp/.MainActivity t6004 f} isExiting}: visible=false visibleRequested=false, isInTransition=false, runningAnimation=false 
+10-17 00:13:43.476 D/WindowManager( 3235): NFW_setClientVisible:ActivityRecord{2b01448 u0 com.example.stylus.noteapp/.MainActivity t6004 f} isExiting} clientVisible:false
+10-17 00:13:43.476 D/Transition( 3235): finishTransition ar ActivityRecord{eb31a27 u0 com.android.launcher/.Launcher t5}, isVisibleRequested=true, state=RESUMED, visibleAtTransitionEndTokens={ActivityRecord{eb31a27 u0 com.android.launcher/.Launcher t5}}, this=TransitionRecord{3012c49 id=482 track=0 type=CLOSE flags=0x10 state=2}
+10-17 00:13:43.477 I/OplusAppSwitchManagerService( 3235):  handleAppVisible , r = ActivityRecord{eb31a27 u0 com.android.launcher/.Launcher t5}
+10-17 00:13:43.477 D/ActivityTaskManager( 3235): removeAppToken: ActivityRecord{2b01448 u0 com.example.stylus.noteapp/.MainActivity t6004 f}} delayed=false parent=Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp} animating=false Callers=com.android.server.wm.ActivityRecord.removeImmediately:5447 com.android.server.wm.ActivityRecord.removeIfPossible:5462 com.android.server.wm.ActivityRecord.handleCompleteDeferredRemoval:5468 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1620 
+10-17 00:13:43.477 I/MultiPropertyFactory( 4024): name=TaskbarExpandIconContainer@4f714c6 target=class com.android.launcher3.taskbar.TaskbarExpandIconContainer oldValue=0.0 newValue=0.0021610558 mInx=1 aggregated=0.0021610558 others= [1.0, 0.0021610558] caller=com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.getClosingAppViewAlphaUpdater$lambda$10:26 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.d:0 com.android.launcher3.allapps.r.accept:28 com.android.quickstep.AnimatedFloat.lambda$setUpdateConsumer$1:9 com.android.quickstep.AnimatedFloat.a:0 com.android.launcher.touch.o.run:18 com.android.quickstep.AnimatedFloat.updateValue:3 com.android.quickstep.AnimatedFloat$1.setValue:2 com.android.quickstep.AnimatedFloat$1.setValue:1 android.animation.PropertyValuesHolder$FloatPropertyValuesHolder.setAnimatedValue:1379 android.animation.ObjectAnimator.animateValue:1001 android.animation.ValueAnimator.animateBasedOnTime:1443 android.animation.ValueAnimator.doAnimationFrame:1620 android.animation.AnimationHandler.doAnimationFrame:344 android.animation.AnimationHandler.-$$Nest$mdoAnimationFrame:0 
+10-17 00:13:43.478 D/OplusMirageWindowManagerService( 3235): onTaskRemoved displayid:0 taskId:6004 callers:com.android.server.wm.MirageWindowManagerExtImpl.onTaskRemoved:47 com.android.server.wm.TaskDisplayArea.removeChildTask:394 com.android.server.wm.TaskDisplayArea.removeChild:383 com.android.server.wm.WindowContainer.removeImmediately:1010 com.android.server.wm.TaskFragment.removeImmediately:3674 
+10-17 00:13:43.478 I/OplusScreenSecurityMask( 3235): onStackRemoved task = Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp} record = null displayId = 0
+10-17 00:13:43.478 D/OplusAlwaysAliveManager( 3235): removing: 6004, ComponentInfo{com.example.stylus.noteapp/com.example.stylus.noteapp.MainActivity}
+10-17 00:13:43.478 D/OplusTransitionController( 3235): finishTransition, transition: TransitionRecord{3012c49 id=482 track=0 type=CLOSE flags=0x10 state=4}
+10-17 00:13:43.478 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.478 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.478 D/TransitionControllerExtImpl( 3235): NFW_send RECOMPUTE_FOCUS in finishTransition
+10-17 00:13:43.479 W/UserAwareMgr( 3235): event can not be released, id: 5005, count: 11, releasePid: 3235
+10-17 00:13:43.479 D/ShellTaskOrganizer( 3850): onTransitionFinish, isRecent:false
+10-17 00:13:43.479 V/WindowManagerShell( 3850): Track 0 became idle
+10-17 00:13:43.479 V/WindowManagerShell( 3850): All active transition animations finished
+10-17 00:13:43.479 W/UserManagerService( 3235): Requested status bar icon for non-badged user 0
+10-17 00:13:43.479 D/OplusSplitScreenManagerService( 3235): isNeedForceShowSystemBarsWhenSplit, landspace no need force show system bar
+10-17 00:13:43.479 D/OplusSplitScreenManagerService( 3235): com.example.stylus.noteapp supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.479 D/OplusFlexibleWindowMinimizedManagerHelper( 3235): onTaskVanished taskInfo:6004 task:Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}
+10-17 00:13:43.479 D/OplusFlexibleDragToSplitAnimController( 3235): visibleFlexibleTaskInfos delete:6004
+10-17 00:13:43.479 D/OplusFlexibleDragAnimationBaseState( 3235): handleRunningTaskInfo:TaskInfo{userId=0 taskId=6004 displayId=-1 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.stylus.noteapp/.MainActivity mCallingUid=10208 } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.example.stylus.noteapp/com.example.stylus.noteapp.MainActivity} numActivities=0 lastActiveTime=87664822 supportsSplitScreenMultiWindow=false supportsMultiWindow=false supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = -1 pid = -1 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9852651 Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=-1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[{androidx.flexible.taskFrame=Rect(0, 0 - 0, 0), androidx.activity.LaunchCornerRadius=0, key_flexible_task_state=0, topActivitySupportAppInnerSplit=false, androidx.activity.LaunchScenario=0, flexible_super_mini_state=false, androidx.activity.LaunchScale=1.0, androidx.activity.LaunchShadowRadius=0}]}state:0
+10-17 00:13:43.479 D/FlexibleTaskController( 3235): no need releaseFlexibleCaptionView or destroyFlexibleDragLeash when non-caption-view-task vanished, task=Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}
+10-17 00:13:43.479 D/FlexibleWindowManagerService( 3235): notifyFlexibleTaskVanish taskId : 6004 is not taskEmbedded
+10-17 00:13:43.479 D/FlexibleWindowManagerService( 3235): onFlexibleWindowTaskVanished: task = 6004,size:0
+10-17 00:13:43.479 D/OplusSplitScreenManagerService( 3235): com.example.stylus.noteapp supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.479 D/ShellTaskOrganizer( 3850): Task vanished taskId=6004
+10-17 00:13:43.479 D/OplusFlexibleWindowMinimizedManagerHelper( 3235): onTaskVanished taskInfo:6004 task:Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}
+10-17 00:13:43.479 D/OplusFlexibleDragToSplitAnimController( 3235): visibleFlexibleTaskInfos delete:6004
+10-17 00:13:43.479 D/OplusFlexibleDragAnimationBaseState( 3235): handleRunningTaskInfo:TaskInfo{userId=0 taskId=6004 displayId=-1 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.stylus.noteapp/.MainActivity mCallingUid=10208 } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.example.stylus.noteapp/com.example.stylus.noteapp.MainActivity} numActivities=0 lastActiveTime=87664822 supportsSplitScreenMultiWindow=false supportsMultiWindow=false supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = -1 pid = -1 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9852651 Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=-1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[{androidx.flexible.taskFrame=Rect(0, 0 - 0, 0), androidx.activity.LaunchCornerRadius=0, key_flexible_task_state=0, topActivitySupportAppInnerSplit=false, androidx.activity.LaunchScenario=0, flexible_super_mini_state=false, androidx.activity.LaunchScale=1.0, androidx.activity.LaunchShadowRadius=0}]}state:0
+10-17 00:13:43.480 D/FlexibleTaskController( 3235): no need releaseFlexibleCaptionView or destroyFlexibleDragLeash when non-caption-view-task vanished, task=Task{fd7b806 #6004 type=standard A=10453:com.example.stylus.noteapp}
+10-17 00:13:43.480 D/FlexibleWindowManagerService( 3235): notifyFlexibleTaskVanish taskId : 6004 is not taskEmbedded
+10-17 00:13:43.480 D/FlexibleWindowManagerService( 3235): onFlexibleWindowTaskVanished: task = 6004,size:0
+10-17 00:13:43.480 D/ShellTaskOrganizerExt( 3850): visibleFlexibleTaskInfos delete:6004
+10-17 00:13:43.480 D/ShellTaskOrganizerExt( 3850): isOnCanvas size:0
+10-17 00:13:43.480 D/ShellTaskOrganizerExt( 3850): isOnThreeFlexibleCanvas size:0
+10-17 00:13:43.480 W/UserManagerService( 3235): Requested status bar icon for non-badged user 0
+10-17 00:13:43.480 I/TaskStackChangeListeners( 4024): onTaskRemoved(), cur=6004
+10-17 00:13:43.480 D/ZoomController( 3850): onTaskRemoved
+10-17 00:13:43.480 D/ZoomController( 3850): onTaskRemoved
+10-17 00:13:43.480 D/QuickBackInputPolicy( 3235): hasMultiChildrenInTask: false
+10-17 00:13:43.480 D/WindowManager( 3235): NFW_findFocusedWindowIfNeeded:Window{27edafa u0 com.android.launcher/com.android.launcher.Launcher} mCurrentFocus:Window{27edafa u0 com.android.launcher/com.android.launcher.Launcher}
+10-17 00:13:43.480 D/TaskStackChangeListeners( 4024): onTaskRemoved(), old=cur=6004
+10-17 00:13:43.480 I/SystemUiProxy( 4024): SystemUiProxy#getRecentTasks isInGoRecentsAnim: false
+10-17 00:13:43.480 D/ActivityTaskManager( 3235): Skipping, invisible task: Task{3b844a9 #5 type=undefined I=com.android.launcher/.Launcher}
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.example.stylus.noteapp supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): me.zhanghai.android.files supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.android.chrome supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.android.chrome supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.tqmane.notesapp supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): ph.spacedesk.beta supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): jp.co.rakuten_sec.ispeed supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.android.settings supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gms supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gms supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.javiersantos.mlmanager supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gms supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gms supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.amazon.kindle supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.googlequicksearchbox supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.googlequicksearchbox supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.googlequicksearchbox supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.googlequicksearchbox supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.oplus.camera supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.oplus.camera supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.orion.notein supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.twitter.android supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.discord supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.fusionmedia.investing supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gm supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.google.android.gm supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): jp.naver.line.android supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/OplusSplitScreenManagerService( 3235): com.instagram.android supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.481 D/ActivityTaskManager( 3235): pre-Filtered:com.example.stylus.noteapp # me.zhanghai.android.files # com.android.chrome # com.tqmane.notesapp # ph.spacedesk.beta # jp.co.rakuten_sec.ispeed # com.android.settings # com.google.android.gms # com.javiersantos.mlmanager # com.google.android.gms # com.amazon.kindle # com.google.android.googlequicksearchbox # com.google.android.googlequicksearchbox # com.oplus.camera # com.orion.notein # com.twitter.android # com.discord # com.fusionmedia.investing # com.google.android.gm # jp.naver.line.android # com.instagram.android # 
+10-17 00:13:43.481 D/ActivityTaskManager( 3235): after skip size 21
+10-17 00:13:43.486 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.486 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.493 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.494 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.494 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.495 W/oplus_btif_dm_utils( 4428): [oplus_btif_dm_utils.cc:199]  oplus_btif_disable_sniff_mode: not support
+10-17 00:13:43.495 D/bluetooth( 4428): [bta_dm_pm.cc:903] bta_dm_pm_sniff: Current power mode:active[0x0] peer_info:0x11:set_sniff:use_ssr
+10-17 00:13:43.495 I/bt_btm_pm( 4428): [btm_pm.cc:290] BTM_SetPowerMode: Setting power mode for peer:xx:xx:xx:xx:5a:46 current_mode:immediate:active[0] new_mode:forced:sniff[2]
+10-17 00:13:43.495 I/bt_btm_pm( 4428): [btm_pm.cc:589] btm_pm_snd_md_req: Switching from immediate:active[0x00] to immediate:sniff[0x02]
+10-17 00:13:43.495 D/bt_shim_hci( 4428): [hci_layer.cc:231] transmit_command: Sending command SNIFF_MODE(0x0803)
+10-17 00:13:43.495 D/bt_btm_pm( 4428): [btm_pm.cc:642]  btm_cb.is_wait_pm_cmd_state_ack: 1
+10-17 00:13:43.495 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK ON
+10-17 00:13:43.495 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceWakeUp: Writing IBS_WAKE_IND
+10-17 00:13:43.496 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+10-17 00:13:43.496 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Signal wack_cond_
+10-17 00:13:43.496 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+10-17 00:13:43.497 I/NearbyDiscovery( 4613): (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+10-17 00:13:43.497 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+10-17 00:13:43.497 D/BluetoothAdapter( 4613): isLeEnabled(): ON
+10-17 00:13:43.497 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+10-17 00:13:43.497 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: Stopping scan, %s
+10-17 00:13:43.497 D/BluetoothAdapter( 4613): isLeEnabled(): ON
+10-17 00:13:43.498 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:43.498 I/AppScanStats( 4428): BLE_SCAN_RESULT_RECEIVED[2]reportBleScanResults=0
+10-17 00:13:43.498 I/AppScanStats( 4428): BLE_SCAN_STATE_CHANGED[2]reportBleScanStopped=false
+10-17 00:13:43.499 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.499 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:195] Unregister: in shim layer, scannerId=2
+10-17 00:13:43.499 D/bluetooth( 4428): [le_scanning_manager.cc:583] unregister_scanner: Unregister scanner successful, scannerId=2
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=2
+10-17 00:13:43.499 I/OplusCustomScanStrategy( 4428): msg.what = 6
+10-17 00:13:43.499 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+10-17 00:13:43.499 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: Start scanning internally, %s
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=2
+10-17 00:13:43.499 D/BluetoothAdapter( 4613): isLeEnabled(): ON
+10-17 00:13:43.499 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer stopped
+10-17 00:13:43.499 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:379] SetScanParameters: in shim layer, scannerId=1 scan_phy=5
+10-17 00:13:43.499 I/bluetooth( 4428): [le_address_manager.cc:246] unregister_client: Client unregistered
+10-17 00:13:43.499 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer started
+10-17 00:13:43.500 I/bluetooth( 4428): [le_scanning_manager.cc:645] stop_scan: Scanning already stopped, return!
+10-17 00:13:43.500 I/bluetooth( 4428): [le_address_manager.cc:231] register_client: Client registered
+10-17 00:13:43.500 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:43.500 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:188] RegisterScanner: in shim layer
+10-17 00:13:43.500 D/BluetoothLeScanner( 4613): onScannerRegistered() - status=0 scannerId=2 mScannerId=0
+10-17 00:13:43.500 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:43.500 I/AppScanStats( 4428): BLE_SCAN_STATE_CHANGED[2]reportBleScanStarted=false
+10-17 00:13:43.501 I/NearbyDiscovery( 4613): (REDACTED) ApFastPairScanner: Starting %s scanning
+10-17 00:13:43.501 I/oplus_bt_dual_sync( 4428): stack_down_sync_action: type=29, len=15
+10-17 00:13:43.501 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.501 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.501 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:298] ScanFilterEnable: in shim layer
+10-17 00:13:43.502 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:274] ScanFilterAdd: in shim layer
+10-17 00:13:43.502 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.502 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.502 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=2
+10-17 00:13:43.502 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:274] ScanFilterAdd: in shim layer
+10-17 00:13:43.502 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.502 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.503 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+10-17 00:13:43.503 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=2
+10-17 00:13:43.503 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Writing IBS_WAKE_ACK
+10-17 00:13:43.503 I/OplusCustomScanStrategy( 4428): msg.what = 6
+10-17 00:13:43.503 W/IScanClientWrapper( 4428): enter default getPassiveSettings!
+10-17 00:13:43.503 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.503 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.503 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.503 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.503 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:43.503 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:43.503 D/bt_shim_hci( 4428): [hci_layer.cc:201] OnTransmitPacketStatus: Received cmd status SUCCESS(0x00) for SNIFF_MODE(0x0803)
+10-17 00:13:43.503 D/bt_btm_pm( 4428): [btm_pm.cc:718]  btm_cb.is_wait_pm_cmd_state_ack: 0
+10-17 00:13:43.511 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.511 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.519 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.519 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.527 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.527 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.530 W/Battery ( 6501): ThermalControllHandler: MSG_THERMAL_CONTROL_STATUS_CHANGED,msg:16
+10-17 00:13:43.530 W/Battery ( 6501): StateManager: getAppType com.android.launcher, last=1760627451139
+10-17 00:13:43.530 W/Battery ( 6501): ThermalControllerCenter: mSafetyState=10000,  mSafetyTestConfigList=01111,10111,11011,11101,11110,00111,01011,01101,01110,10011,10101,10110,11001,11010,11100,11111
+10-17 00:13:43.530 W/Battery ( 6501): ThermalControllHandler: tempLevel=[3],userMode=2,gameUserMode=7,appType=-1,envTempType=0,appStates=[],appSwitchSafetyMode=true,split=[],float=[org.crape.rotationcontrol],full=[com.android.launcher], tempGear=[3],configItemName=common_config
+10-17 00:13:43.536 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.536 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.541 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.544 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.544 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.549 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.549 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:43.552 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.552 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.555 D/vendor.oplus.hardware.charger-V7-service( 1979): ret_value:112, read content:,308,308,4280,4280,3236,91,92,1,1,0,94,4586,92,1,4490,500,500,0,14,-22,-19,0,1,0,2,0,0,0,3,0,100,0,0,0,0,0,0,20
+10-17 00:13:43.555 D/vendor.oplus.hardware.charger-V7-service( 1979): gmtime: 2025-10-17-00-13-43
+10-17 00:13:43.555 D/vendor.oplus.hardware.charger-V7-service( 1979): usb_online:1, ac_online:-2147483648, wireless_online:-2147483648
+10-17 00:13:43.561 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.561 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.569 I/MultiPropertyFactory( 4024): name=HotseatBackgroundAlpha target=class com.android.launcher3.OplusHotseat oldValue=0.9999999 newValue=1.0 mInx=1 aggregated=1.0 others= [1.0, 1.0] caller=com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.createBackgroundCrossAnim$lambda$20:23 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.f:0 com.android.launcher3.card.n.accept:12 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.createBackgroundCrossAnim$lambda$23$lambda$22:91 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.c:0 com.android.launcher3.taskbar.x3.onAnimationUpdate:6 android.animation.Animator$AnimatorCaller.lambda$static$4:876 android.animation.Animator$AnimatorCaller$$ExternalSyntheticLambda6.call:0 android.animation.Animator.callOnList:687 android.animation.ValueAnimator.animateValue:1724 android.animation.ValueAnimator.setCurrentFraction:780 com.android.launcher3.anim.AnimatorPlaybackController$Holder.setProgress:10 com.android.launcher3.anim.AnimatorPlaybackController.setPlayFraction:22 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.onUpdate:48 com.android.launcher3.taskbar.OplusTaskbarViewController.createTransientTaskbarIconAlignmentController$lambda$10:31 
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Adding [STATE_STASH_ANIMATION_SUCCESS (16)] to [STATE_ICON_ALIGN_ANIMATION_START, STATE_STASH_ANIMATION_START, STATE_CONFIRM_ONLY_Y_TRANSITION (133)]
+10-17 00:13:43.569 W/SpringAnimation( 4024): finishToEndImmediately but animation not started.
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Adding [STATE_ICON_ALIGN_ANIMATION_END (2)] to [STATE_ICON_ALIGN_ANIMATION_START, STATE_STASH_ANIMATION_START, STATE_STASH_ANIMATION_SUCCESS, STATE_CONFIRM_ONLY_Y_TRANSITION (149)]
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Adding [STATE_ALL_WINDOW_ANIM_TRANSITION_END (64)] to [STATE_ICON_ALIGN_ANIMATION_START, STATE_ICON_ALIGN_ANIMATION_END, STATE_STASH_ANIMATION_START, STATE_STASH_ANIMATION_SUCCESS, STATE_CONFIRM_ONLY_Y_TRANSITION (151)]
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Removing [STATE_ICON_ALIGN_ANIMATION_START, STATE_ICON_ALIGN_ANIMATION_END, STATE_STASH_ANIMATION_START, STATE_STASH_ANIMATION_CANCELED, STATE_STASH_ANIMATION_SUCCESS, STATE_ALL_WINDOW_ANIM_TRANSITION_END, STATE_CONFIRM_ONLY_Y_TRANSITION, null, null (-33)] from [STATE_ICON_ALIGN_ANIMATION_START, STATE_ICON_ALIGN_ANIMATION_END, STATE_STASH_ANIMATION_START, STATE_STASH_ANIMATION_SUCCESS, STATE_ALL_WINDOW_ANIM_TRANSITION_END, STATE_CONFIRM_ONLY_Y_TRANSITION (215)]
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Removing [STATE_STASH_ANIMATION_START, STATE_STASH_ANIMATION_CANCELED, STATE_STASH_ANIMATION_SUCCESS (28)] from [ (0)]
+10-17 00:13:43.569 D/MultiStateCallback( 4024): [2903064] Adding [STATE_STASH_ANIMATION_START (4)] to [ (0)]
+10-17 00:13:43.570 D/MultiStateCallback( 4024): [2903064] Adding [STATE_STASH_ANIMATION_SUCCESS (16)] to [STATE_STASH_ANIMATION_START (4)]
+10-17 00:13:43.570 W/SpringAnimation( 4024): finishToEndImmediately but animation not started.
+10-17 00:13:43.570 I/BpBinder( 2110): onLastStrongRef automatically unlinking death recipients: 
+10-17 00:13:43.570 I/BpBinder( 2110): onLastStrongRef automatically unlinking death recipients: 
+10-17 00:13:43.570 I/MultiPropertyFactory( 4024): name=HotseatTranslationY target=class com.android.launcher3.OplusHotseat oldValue=0.09916976 newValue=0.0 mInx=1 aggregated=0.0 others= [0.0, 0.0] caller=com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.resetHotseatAnimationState:62 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.onReset:69 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.reset:261 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler$handlerMap$8.invoke:2 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler$handlerMap$8.invoke:1 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.registerCallbacks$lambda$1$lambda$0:22 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.a:0 com.android.launcher3.anim.iconsurfacemanager.a.accept:28 com.android.quickstep.MultiStateCallback.notifyStateChangeListeners:61 com.android.quickstep.MultiStateCallback.setState:108 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.onIconAlignAnimationEnd$lambda$4:12 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.c:0 com.android.common.util.r0.run:64 com.android.launcher3.QuickstepTransitionManager.checkAllTransitionEnded:47 com.android.launcher3.taskbar.OplusTaskbarLauncherStateController$IconAlignmentStateCallbackHandler.onIconAlignAnimationEnd:30 
+10-17 00:13:43.570 D/DisplayPolicyExtImpl( 3235): SettingsObserver onChange mEnableTaskBarTransient: 1 mLauncherDefaultTaskbarHeight: 0
+10-17 00:13:43.571 D/DisplayPolicyExtImpl( 3235): getInvalidNavigationBarHeight: barHeight=36
+10-17 00:13:43.571 D/DisplayPolicyExtImpl( 3235): getInvalidNavigationBarHeight: barHeight=36
+10-17 00:13:43.571 D/ViewRootImplExtImpl( 4024): showSurfaceViewBackground subLayer:-2, name:Taskbar
+10-17 00:13:43.571 I/SurfaceControl( 4024):  setExtendedRangeBrightness sc=Surface(name=Taskbar)/@0x52b53bb,currentBufferRatio=1.0,desiredRatio=1.0
+10-17 00:13:43.571 V/WindowManager( 3235): Relayout Window{2045bc5 u0 Taskbar}: viewVisibility=0, oldvis=0, req=3392x800, vsysui=, x=0, y=0
+10-17 00:13:43.571 D/SurfaceView( 4024): 33028489 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+10-17 00:13:43.571 D/SurfaceView( 4024): 33028489 clearSurfaceViewPort mCornerRadius 0.0
+10-17 00:13:43.572 E/WifiStaIfaceAidlImpl( 3235): getCachedScanData failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-17 00:13:43.572 D/OplusSplitScreenManagerService( 3235): isNeedForceShowSystemBarsWhenSplit, landspace no need force show system bar
+10-17 00:13:43.573 D/VendorWifiService( 4412): onEvent event:9,action:1
+10-17 00:13:43.574 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.574 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.574 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.575 D/OplusWifiPower_TriggerCenter( 3235): mComponentCallback: wifistat
+10-17 00:13:43.583 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.583 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.583 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.589 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.590 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.591 D/CommonApp-108-10453( 4267): transport layer data is invalid
+10-17 00:13:43.591 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.591 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.591 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.599 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.599 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.599 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.603 D/ConfigListManager(18460): we take a gc.
+10-17 00:13:43.607 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.607 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.607 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.608 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+10-17 00:13:43.608 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Writing IBS_WAKE_ACK
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 D/btm_acl ( 4428): [btm_acl.cc:371] btm_bda_to_acl: bda=00:00:00:00:00:00 transport=1 not found in acl_db
+10-17 00:13:43.609 I/bt_btm_pm( 4428): [btm_pm.cc:755] btm_pm_proc_mode_change: Power mode switched from immediate:pending[5] to immediate:sniff[2]
+10-17 00:13:43.609 D/btm_sco ( 4428): [btm_sco.cc:1026] btm_sco_disc_chk_pend_for_modechange: Checking for SCO pending mode change events hci_handle:0x0002 p->state:SCO_ST_UNUSED
+10-17 00:13:43.609 I/oplus_bt_power( 4428): [oplus_bt_power.cc:322]  acl_links_num: 3, is_any_active_acl = 0
+10-17 00:13:43.609 I/oplus_bt_dual_sync( 4428): do_stack_up_sync: stack_to_apk_type = 27
+10-17 00:13:43.609 I/OplusBluetoothSarManager( 4428): Bluetooth not in tx mode, don't do sar back off!
+10-17 00:13:43.609 I/Bluetooth( 4428): [oplus_bt_dual_sync.cc:627] up_sync done.
+10-17 00:13:43.609 D/OplusWifiBroadCastDispatcher( 3235): mBroadcastReceiver: onReceiver  action=oplus.bluetooth.sar.TX_STATUS
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): Received action: oplus.bluetooth.sar.TX_STATUS
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): mWifiConnected: true mWifiState: true
+10-17 00:13:43.610 D/WifiCountryCode( 3235): Reading country code from telephony
+10-17 00:13:43.610 D/WifiCountryCode( 3235): Set telephony country code to: 
+10-17 00:13:43.610 D/OplusWifiSarManager( 3235): set wifi_dbs_enable to false
+10-17 00:13:43.610 D/OplusWifiSarManager( 3235): wifiBand mWifi2gState:false mWifi5gState: true mWifi5gBand:WIFI_5G_BAND1 mWifi6gBand:WIFI_5G_DISABLE
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sar sensor state:
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 0, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 1, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 2, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 3, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 4, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 5, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 6, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 7, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 8, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 9, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 10, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 11, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 12, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 13, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 14, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 15, state: null
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): project: 24976, country: JP
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor state: earpiece: 0, sensor: null, isScreenOn: true
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): modem state: mCellOn: false mDataOn: false mData5gOn: false
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): wifi state: mWifiConnected: true mWifiSapEnabled: false mWifiP2pConnected: false mWifi2gState: false mWifi5gState: true mWifi5gBand: WIFI_5G_BAND1 mWifi6gBand: WIFI_5G_DISABLE mIsBluetoothTxOn: false
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): mSta5gBand: WIFI_5G_BAND1 , mP2p5gBand: WIFI_5G_DISABLE , mSap5gBand: WIFI_5G_DISABLE , mSta6gBand: WIFI_5G_DISABLE , mP2p6gBand: WIFI_5G_DISABLE , mSap6gBand: WIFI_5G_DISABLE , wifiBand5g: WIFI_5G_BAND1 , wifiBand6g: WIFI_5G_DISABLE
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): wifisar engineerMode state: enable: false, Regdomain: , modemWorkType(2:4G, 3:5G): -1, sensorWorkType: -1, wifiChannel2.4G: -1, wifiChannel5G: -1, wifiChannel6G: -1 mWifiSarTestFoldWorkType((1=unfold,0=fold)):-1, bt work type: -1, hotspot work type: -1
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): not support wsa
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): sensor index: 13, max: 16
+10-17 00:13:43.610 D/OplusWifiSarManager( 3235): is countrylist Country JP
+10-17 00:13:43.610 I/OplusWifiSarManager( 3235): mCurRegion is CE, don't support DC SAR, DC SAR supported regions: CN,INDIA
+10-17 00:13:43.610 D/OplusWifiSarManager( 3235):  state: 11110000001000011 country: JP
+10-17 00:13:43.611 I/ficationmanager(18460): Explicit concurrent mark compact GC freed 216KB AllocSpace bytes, 0(0B) LOS objects, 68% free, 1911KB/6007KB, paused 61us,471us total 8.281ms
+10-17 00:13:43.616 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.616 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.616 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.617 I/ficationmanager(18460): Explicit concurrent mark compact GC freed 104KB AllocSpace bytes, 0(0B) LOS objects, 68% free, 1903KB/5999KB, paused 48us,341us total 5.248ms
+10-17 00:13:43.624 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.624 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.624 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.632 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.632 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.632 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.637 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.640 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.641 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.641 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.641 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.644 I/SnapAlloc( 1870): Using graphics libs for alignment calculations
+10-17 00:13:43.649 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.649 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.649 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.657 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.657 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.657 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.666 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.666 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.666 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.674 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.674 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.674 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.682 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.682 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.682 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.684 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:43.685 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.690 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.691 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.691 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.691 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.697 I/SystemUi--Keyguard( 3850): OplusKeyguardViewMediator-->checkOrFixIfNeeded(), isKeyguardVisible = false
+10-17 00:13:43.699 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.699 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.699 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.703 D/OplusAppQuickStart_AppQuickStartingSurface( 3235): task is not on display when StartingSurfaceTimeoutRunnable, use pendingTransaction
+10-17 00:13:43.707 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.707 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.707 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.716 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.716 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.716 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.724 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.724 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.724 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.732 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.732 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.732 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.733 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.740 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.741 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.741 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.741 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.749 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.749 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.749 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.757 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.757 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.757 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.759 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceSleep: TX Awake, Sending SLEEP_IND
+10-17 00:13:43.759 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK OFF
+10-17 00:13:43.766 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.766 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.766 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.773 I/TcpSyn  ( 4267): onIfNameChange: foregroundAppChange
+10-17 00:13:43.774 D/OplusWallpaperSurfaceAnimation( 3235): resetEnable curState: STARTED
+10-17 00:13:43.774 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.774 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.774 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.774 D/OplusWallpaperAnimationManager( 3235): onAnimationEnd
+10-17 00:13:43.774 D/OplusWallpaperAnimationManager( 3235): setSkipUpdateWallpaperPosition skip: false, wallpaper: Window{f321408 u0 true com.heytap.colorfulengine.wallpaper.services.PatternGlassWallpaperService}
+10-17 00:13:43.774 D/OplusWallpaperSurfaceAnimation( 3235): setAnimationState curState: IDLE
+10-17 00:13:43.774 W/UserAwareMgr( 3235): event can not be released, id: 5006, count: 20, releasePid: 3235
+10-17 00:13:43.774 I/TcpSyn  ( 4267): onIfNameChange: foregroundAppChange appUid=[10208, 10383]
+10-17 00:13:43.774 I/TcpSyn  ( 4267): updateAllUids
+10-17 00:13:43.777 I/MultiPropertyFactory( 4024): name=TaskbarExpandIconContainer@4f714c6 target=class com.android.launcher3.taskbar.TaskbarExpandIconContainer oldValue=0.9995729 newValue=1.0 mInx=1 aggregated=1.0 others= [1.0, 1.0] caller=com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.getClosingAppViewAlphaUpdater$lambda$10:26 com.android.launcher3.taskbar.TransientTaskbarIconAlignmentRunner.d:0 com.android.launcher3.allapps.r.accept:28 com.android.quickstep.AnimatedFloat.lambda$setUpdateConsumer$1:9 com.android.quickstep.AnimatedFloat.a:0 com.android.launcher.touch.o.run:18 com.android.quickstep.AnimatedFloat.updateValue:3 com.android.quickstep.AnimatedFloat$1.setValue:2 com.android.quickstep.AnimatedFloat$1.setValue:1 android.animation.PropertyValuesHolder$FloatPropertyValuesHolder.setAnimatedValue:1379 android.animation.ObjectAnimator.animateValue:1001 android.animation.ValueAnimator.animateBasedOnTime:1443 android.animation.ValueAnimator.doAnimationFrame:1620 android.animation.AnimationHandler.doAnimationFrame:344 android.animation.AnimationHandler.-$$Nest$mdoAnimationFrame:0 
+10-17 00:13:43.781 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.782 D/OplusInfoMonitor( 2110): setListenerReport: reportInfo:
+10-17 00:13:43.782 D/CompositionEngine( 2110): Layer: Taskbar#96 had an out of bounds transparent region
+10-17 00:13:43.782 D/Region  ( 2110):   Region transparentRegionHint (this=0xb4000077beb5ad40, count=1)
+10-17 00:13:43.782 D/Region  ( 2110):     [585, 833, 2807, 1064]
+10-17 00:13:43.786 D/OplusScrollToTopManager( 4024): com.android.launcher/com.android.launcher.Launcher,This com.android.internal.policy.DecorView{465baf8 V.E...... R....... 0,0-3392,2400 aid=0 alpha=1.0 viewInfo = }[Launcher] change focus to true
+10-17 00:13:43.829 D/SurfaceFlinger( 2110): captureLayers from pid 4187 uid -333
+10-17 00:13:43.909 D/vendor.qti.bluetooth@1.0-wake_lock( 1835): Release wakelock is released 
+10-17 00:13:43.969 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:44.171 I/PluginSeedling--Origin( 3850): OSenseManager-->isMEMHighPressure oldState:false newState: false isMEMHighPressure:false
+10-17 00:13:44.517 E/TetherController( 1723): property_get sys.radio.data.modem_share_flag return 0, 1!
+10-17 00:13:44.547 D/VRR [OTI]( 2110): handleIdle from 0 to 1
+10-17 00:13:44.547 D/VRR [OTI-HW]( 2110): isStateReady 1
+10-17 00:13:44.547 D/VRR [RefreshRateDirector]( 2110): requestRefreshRateByOti update [ oti-hw, {fps=50, modePtr={id=3, vsyncRate=50.00 Hz, peakRefreshRate=50.00 Hz}} ]
+10-17 00:13:44.547 D/VRR [RefreshRateDirector]( 2110): selectBestFrameRate DirectorMapOti [oti-hw, {fps=50, modePtr={id=3, vsyncRate=50.00 Hz, peakRefreshRate=50.00 Hz}}]
+10-17 00:13:44.547 D/VRR [RefreshRateDirector]( 2110): updateBestFrameRate [oti-hw, {fps=50, modePtr={id=3, vsyncRate=50.00 Hz, peakRefreshRate=50.00 Hz}}]
+10-17 00:13:44.547 D/SurfaceFlinger( 2110): VRR [SurfaceFlinger] setDesiredActiveMode: displayId: 4630946983774026899, renderRate: 50, vsyncRate: 50, event: 0
+10-17 00:13:44.547 D/DisplayModeController( 2110): setDesiredMode 4630946983774026899 {mode={fps=50.00 Hz, modePtr={id=3, vsyncRate=50.00 Hz, peakRefreshRate=50.00 Hz}}, emitEvent=false, force=false}
+10-17 00:13:44.548 I/DisplayModeController( 2110): hwc begin mode change to 20000000
+10-17 00:13:44.548 W/SDM     ( 1877): HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1362553947
+10-17 00:13:44.549 I/SDM     ( 1877): HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 3392x2400-2 for Peripheral
+10-17 00:13:44.549 I/SystemUi--NavBar( 3850): NoBackGesture-->display_id_0 updateGestureAreaRatio newSize: 53.0 ,mBottomGestureAreaHeightInMistouch: 53
+10-17 00:13:44.549 I/SystemUi--NavBar( 3850): NoBackGesture-->display_id_0 updateGestureBottomArea: mBottomGestureAreaHeight = 53
+10-17 00:13:44.549 I/CwbService( 1877): CwbService::notifyConfigChange: display:0, config:3 size:0, sec.size():0
+10-17 00:13:44.549 I/CwbService( 1877): CwbService::notifyConfigChange: display: 0, config = 3
+10-17 00:13:44.549 E/OplusInputManagerService_jni( 3235): updateInvalidRegion start!!!
+10-17 00:13:44.549 E/InputDispatcherExtImpl( 3235): rectF left: 0.000000, top: 0.000000, right: 53.000000, bottom: 3392.000000 offset_left: 0.000000, offset_top: 0.000000, offset_right: 54.000000, offset_bottom: 0.000000, isClosedRegion:0
+10-17 00:13:44.549 W/InputDispatcherExtImpl( 3235): invalidRegions and dispatchRegions map setted, key: homegesture_displayid_0
+10-17 00:13:44.549 E/OplusInputManagerService_jni( 3235): updateInvalidRegion start!!!
+10-17 00:13:44.550 E/OplusInputManagerService_jni( 3235): updateInvalidRegion start!!!
+10-17 00:13:44.550 I/SDM     ( 1877): HWDeviceDRM::SetDisplaySwitchMode: Mode 3 already set
+10-17 00:13:44.553 D/VRR [OTI-HW]( 2110): isStateReady 1
+10-17 00:13:44.553 D/VRR [OTI-HW]( 2110): keep rate.
+10-17 00:13:44.557 D/OplusAppQuickStart_AppQuickStartingSurface( 3235): task is not on display when StartingSurfaceTimeoutRunnable, use pendingTransaction
+10-17 00:13:44.615 D/CommonApp-108-10453( 4267): transport layer data is invalid
+10-17 00:13:44.630 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:44.649 D/skia    ( 2110): findCacheMissInfo vsync 6005837, result 0
+10-17 00:13:44.719 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:44.755 D/RefreshRate( 3235): app switch boost timeout,transition isPlaying:false isInInterruptScene:false
+10-17 00:13:44.798 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:44.802 D/OplusWifiPowerWakeupStats( 3235): wakeupType =  1*;*9*.*6*.*2*.*1*;*4*4*;*3*.*5*.*5*.*5*;*9*0*
+10-17 00:13:44.812 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+10-17 00:13:44.812 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK ON
+10-17 00:13:44.812 D/vendor.qti.bluetooth@1.0-wake_lock( 1835): Acquire wakelock is acquired 
+10-17 00:13:44.812 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Writing IBS_WAKE_ACK
+10-17 00:13:44.853 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:44.853 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK OFF
+10-17 00:13:44.878 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 69999 us
+10-17 00:13:44.908 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+10-17 00:13:44.908 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK ON
+10-17 00:13:44.908 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Writing IBS_WAKE_ACK
+10-17 00:13:44.949 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:44.949 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK OFF
+10-17 00:13:44.957 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:44.993 D/BluetoothAdapter( 4613): isLeEnabled(): ON
+10-17 00:13:44.995 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:44.997 I/AppScanStats( 4428): BLE_SCAN_RESULT_RECEIVED[4]reportBleScanResults=0
+10-17 00:13:44.997 I/AppScanStats( 4428): BLE_SCAN_STATE_CHANGED[4]reportBleScanStopped=false
+10-17 00:13:44.999 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:44.999 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=4
+10-17 00:13:44.999 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:195] Unregister: in shim layer, scannerId=4
+10-17 00:13:45.000 I/OplusCustomScanStrategy( 4428): msg.what = 6
+10-17 00:13:45.000 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK ON
+10-17 00:13:45.000 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=4
+10-17 00:13:45.000 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceWakeUp: Writing IBS_WAKE_IND
+10-17 00:13:45.000 D/BluetoothAdapter( 4613): isLeEnabled(): ON
+10-17 00:13:45.000 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.000 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer stopped
+10-17 00:13:45.000 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:379] SetScanParameters: in shim layer, scannerId=1 scan_phy=1
+10-17 00:13:45.000 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.000 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+10-17 00:13:45.001 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Signal wack_cond_
+10-17 00:13:45.001 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer started
+10-17 00:13:45.001 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+10-17 00:13:45.001 D/bluetooth( 4428): [le_scanning_manager.cc:583] unregister_scanner: Unregister scanner successful, scannerId=4
+10-17 00:13:45.001 I/bluetooth( 4428): [le_address_manager.cc:246] unregister_client: Client unregistered
+10-17 00:13:45.001 I/bluetooth( 4428): [le_scanning_manager.cc:645] stop_scan: Scanning already stopped, return!
+10-17 00:13:45.001 I/bluetooth( 4428): [le_address_manager.cc:231] register_client: Client registered
+10-17 00:13:45.001 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+10-17 00:13:45.001 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:45.001 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Writing IBS_WAKE_ACK
+10-17 00:13:45.002 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:188] RegisterScanner: in shim layer
+10-17 00:13:45.003 D/BluetoothLeScanner( 4613): onScannerRegistered() - status=0 scannerId=4 mScannerId=0
+10-17 00:13:45.004 W/IPCThreadState( 3235): Sending oneway calls to frozen process.
+10-17 00:13:45.005 I/AppScanStats( 4428): BLE_SCAN_STATE_CHANGED[4]reportBleScanStarted=false
+10-17 00:13:45.005 I/NearbySharing( 4613): Started scanning for FastInitiation with mode: SCAN_MODE_AMBIENT_DISCOVERY
+10-17 00:13:45.005 I/NearbySharing( 4613): FastInitiation warming period has ended
+10-17 00:13:45.006 I/oplus_bt_dual_sync( 4428): stack_down_sync_action: type=29, len=15
+10-17 00:13:45.007 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.007 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.007 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:298] ScanFilterEnable: in shim layer
+10-17 00:13:45.008 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:274] ScanFilterAdd: in shim layer
+10-17 00:13:45.008 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.008 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.009 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=4
+10-17 00:13:45.009 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:274] ScanFilterAdd: in shim layer
+10-17 00:13:45.009 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.010 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.010 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:236] ScanFilterParamSetup: in shim layer, clientIf=4
+10-17 00:13:45.010 I/OplusCustomScanStrategy( 4428): msg.what = 6
+10-17 00:13:45.011 W/IScanClientWrapper( 4428): enter default getPassiveSettings!
+10-17 00:13:45.011 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.011 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.011 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:true
+10-17 00:13:45.011 D/OplusSplitScreenManagerService( 3235): com.android.launcher supportsSplitScreen by forceResizable activity return:false
+10-17 00:13:45.012 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer stopped
+10-17 00:13:45.012 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:379] SetScanParameters: in shim layer, scannerId=1 scan_phy=5
+10-17 00:13:45.012 I/bluetooth( 4428): [le_address_manager.cc:246] unregister_client: Client unregistered
+10-17 00:13:45.012 I/bt_shim_scanner( 4428): [le_scanning_manager.cc:201] Scan: in shim layer started
+10-17 00:13:45.012 I/bluetooth( 4428): [le_scanning_manager.cc:645] stop_scan: Scanning already stopped, return!
+10-17 00:13:45.012 I/bluetooth( 4428): [le_address_manager.cc:231] register_client: Client registered
+10-17 00:13:45.037 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:45.057 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+10-17 00:13:45.116 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:45.196 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:45.266 I/vendor.qti.bluetooth@1.0-ibs_handler( 1835): DeviceSleep: TX Awake, Sending SLEEP_IND
+10-17 00:13:45.266 D/vendor.qti.bluetooth@1.0-ibs_handler( 1835): SerialClockVote: vote for UART CLK OFF
+10-17 00:13:45.276 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:45.319 E/TaskPersister( 3235): File error accessing recents directory (directory doesn't exist?).
+10-17 00:13:45.357 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 70000 us
+10-17 00:13:45.416 D/vendor.qti.bluetooth@1.0-wake_lock( 1835): Release wakelock is released 
+10-17 00:13:45.437 I/SDM     ( 1877): DisplayBase::CommitThread: Received idle timeout, panel: video, timeout: 69999 us

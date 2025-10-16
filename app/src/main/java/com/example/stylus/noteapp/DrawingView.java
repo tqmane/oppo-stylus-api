@@ -73,19 +73,28 @@ public class DrawingView extends View {
     }
     
     private DisplayMetrics getDisplayMetrics(Context context) {
-        DisplayMetrics metrics = new DisplayMetrics();
-        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        if (wm != null) {
-            wm.getDefaultDisplay().getMetrics(metrics);
-        }
-        return metrics;
+        // Use resources metrics to avoid deprecated/nullable WindowManager paths
+        return context.getResources().getDisplayMetrics();
     }
     
     private float getRefreshRate(Context context) {
-        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        if (wm != null) {
-            Display display = wm.getDefaultDisplay();
-            return display.getRefreshRate();
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                Display display = context.getDisplay();
+                if (display != null) {
+                    return display.getRefreshRate();
+                }
+            } else {
+                WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+                if (wm != null) {
+                    Display display = wm.getDefaultDisplay();
+                    if (display != null) {
+                        return display.getRefreshRate();
+                    }
+                }
+            }
+        } catch (Throwable ignored) {
+            // Fallback below
         }
         return 60.0f;
     }
