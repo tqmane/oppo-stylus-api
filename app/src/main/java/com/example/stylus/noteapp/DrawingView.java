@@ -5,12 +5,14 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import java.util.Arrays;
 import com.oplusos.vfxsdk.forecast.MotionPredictor;
 import com.oplusos.vfxsdk.forecast.TouchPointInfo;
 import java.util.ArrayList;
@@ -39,8 +41,13 @@ public class DrawingView extends View {
         paint.setStrokeJoin(Paint.Join.ROUND);
         paint.setStrokeWidth(strokeWidth);
         
-        // OPPO/OnePlus predictor initialization
+        // OPPO/OnePlus predictor initialization (be defensive against native init errors)
         try {
+            if (!isArm64Device()) {
+                // Emulator/x86/x64等ではネイティブが存在しないためスキップ
+                usePrediction = false;
+                return;
+            }
             predictor = new MotionPredictor();
             DisplayMetrics metrics = getDisplayMetrics(context);
             float refreshRate = getRefreshRate(context);
@@ -48,10 +55,21 @@ public class DrawingView extends View {
             predictor.setRefreshRate(refreshRate);
             predictor.setMaxPredictTime(16.0f);
             usePrediction = true;
-        } catch (UnsatisfiedLinkError e) {
-            // Not OPPO/OnePlus device, use standard touch
+        } catch (Throwable e) {
+            // Not OPPO/OnePlus device or native init failed; fall back to standard touch
             usePrediction = false;
         }
+    }
+
+    private boolean isArm64Device() {
+        String[] abis = Build.SUPPORTED_ABIS;
+        if (abis == null) return false;
+        for (String abi : abis) {
+            if ("arm64-v8a".equalsIgnoreCase(abi)) {
+                return true;
+            }
+        }
+        return false;
     }
     
     private DisplayMetrics getDisplayMetrics(Context context) {
