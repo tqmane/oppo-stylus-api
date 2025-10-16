@@ -1,0 +1,17 @@
+# Ensure gradlew uses LF line endings on all platforms
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows batch files should use CRLF
+*.bat text eol=crlf
+
+# Binary files
+*.jar binary
+*.so binary
+*.apk binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
